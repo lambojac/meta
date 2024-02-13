@@ -1,0 +1,139 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    color:black;
+  }
+  .ul-list{
+list-style-type: none;
+position:relative;
+right:600px;
+font-size:30px;
+  }
+  .right-direction{
+    display:flex;
+    flex-direction:column;
+    list-style-type: none;
+  }
+  
+  .nav-item {
+    position: relative;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .submenu {
+    position: fixed; 
+    top: 60px; 
+    left: 0;
+    display: none;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    width: 100vw; /* Make it full width */
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .nav-item:hover .submenu {
+    display: block;
+  }
+  
+  .dropdown-icon {
+    margin-left: 5px;
+  }
+  
+  .search-box {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  /* Add additional styling as needed */
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    position:relative;
+    right: -50px;
+  }
+  
+  
+  .dropdown-icon::after {
+    content: '\25BC'; 
+    margin-left: 5px;
+  }
+  
+  /* Add this styling in your existing stylesheet */
+
+.submenu {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    display: none;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    width: 100vw;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .submenu-column {
+    flex: 1;
+    margin-right: 20px; /* Add margin for spacing between columns */
+  }
+  
+  .submenu h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .submenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .submenu li {
+    margin-bottom: 8px;
+    cursor: pointer;
+  }
+  
+  .nav-item:hover .submenu {
+    display: flex;
+  }
+  
+  /* Add this styling in your existing stylesheet */
+
+.search-box {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .search-box input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px; /* Adjust the width as needed */
+  }
+  
+  .search-icon {
+    position:relative;
+    left: 20px;
+    cursor: pointer;
+  }
+  
