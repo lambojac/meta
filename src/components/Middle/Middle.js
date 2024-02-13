@@ -1,6 +1,6 @@
-// Inside your React component
+
 import React from 'react';
-import './Middle.css'; // Import your CSS file
+import './Middle.css';
 
 const Middle = () => {
   return (

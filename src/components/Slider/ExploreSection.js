@@ -10,6 +10,7 @@ function ExploreSection() {
     "./img1.png",
     "./img2.png",
     "./img3.png",
+    "./img4.png",
   ]
 
   const prevSlide = () => {
@@ -26,6 +27,7 @@ function ExploreSection() {
         <img src={data[0]} alt="" />
         <img src={data[1]} alt="" />
         <img src={data[2]} alt="" />
+        <img src={data[3]} alt="" />
       </div>
 
       <div className="icons">
