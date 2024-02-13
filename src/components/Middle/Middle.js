@@ -11,7 +11,7 @@ const Middle = () => {
           <p>
             Experience the thrill of immersive games, fitness apps, and entertainment—now for $50 less.
           </p>
-          <img src="" alt="VR Experience" />
+          <img src="eyeglasses2.png" alt="VR Experience" />
           <div className="buttons">
             <button className="add-to-bag-button">Add to Bag</button>
             <a href="#learn-more" className="learn-more-link">Learn more ▶</a>
