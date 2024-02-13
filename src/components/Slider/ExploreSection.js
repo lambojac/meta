@@ -7,9 +7,9 @@ import "./ExploreSection.css"
 function ExploreSection() {
   const [currentSlide, setCurrentSlide] = useState(0)
   const data = [
-    "./img1.png",
-    "./img2.png",
-    "./img3.png",
+    "./img11.png",
+    "./img12.png",
+    "./img13.png",
     "./img4.png",
   ]
 
