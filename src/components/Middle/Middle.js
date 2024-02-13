@@ -11,7 +11,7 @@ const Middle = () => {
           <p>
             Experience the thrill of immersive games, fitness apps, and entertainment—now for $50 less.
           </p>
-          <img src="eyeglasses2.png" alt="VR Experience" />
+          <img src="img1.png" alt="VR Experience" />
           <div className="buttons">
             <button className="add-to-bag-button">Add to Bag</button>
             <a href="#learn-more" className="learn-more-link">Learn more ▶</a>
@@ -25,7 +25,7 @@ const Middle = () => {
           <p>
             Next-generation smart glasses that blend an iconic look with cutting-edge technology.
           </p>
-          <img src="your-image2.jpg" alt="Ray-Ban | Meta" />
+          <img src="/img2.png" alt="Ray-Ban | Meta" />
           <div className="buttons">
             <button className="shop-all-styles-button">Shop all styles</button>
           </div>
