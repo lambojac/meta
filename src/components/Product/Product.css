@@ -1,0 +1,55 @@
+
+.four-images-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .image-box {
+    width: 22%; 
+    text-align: center;
+  }
+  
+  .image-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; 
+  }
+  
+  .text {
+    margin-top: 10px;
+  }
+  
+  .text h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .shop-now-button {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    display: inline-block;
+  }
+  
+ /* Inside Product.css */
+.intro-text {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .intro-text div {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .intro-text div:last-child {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  

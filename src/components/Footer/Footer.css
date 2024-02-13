@@ -1,0 +1,44 @@
+/* Footer Container */
+.footer__container {
+    background-color: #333; /* Adjust color as needed */
+    color: #fff; /* Text color */
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Social Links */
+.footer__social__links {
+    display: flex;
+    align-items: center; /* Center align social icons vertically */
+}
+
+.social__link {
+    margin-right: 15px; /* Adjust spacing between social icons */
+    font-size: 1.5rem; /* Adjust icon size */
+}
+
+/* Links Section */
+.footer__links {
+    flex: 1;
+    margin-bottom: 20px; /* Adjust spacing between sections */
+}
+
+.footer__links__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer__links__list li {
+    margin-bottom: 10px; /* Adjust spacing between list items */
+}
+
+.footer__links__list a {
+    color: #fff; /* Link color */
+    text-decoration: none;
+}
+
+.footer__links__list a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}

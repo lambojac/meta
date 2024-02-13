@@ -1,0 +1,43 @@
+/* Inside YourComponent.css */
+.two-box-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .box {
+    width: 48%; /* Adjust width as needed */
+    background-color: #f0f0f0; /* Add your desired background color */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .box-content {
+    text-align: center;
+    color: #333; /* Add your desired text color */
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .add-to-bag-button,
+  .shop-all-styles-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  .learn-more-link {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  /* Add your additional styling as needed */
+  
